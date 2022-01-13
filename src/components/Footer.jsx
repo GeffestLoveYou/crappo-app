@@ -18,7 +18,6 @@ export default class Footer extends Component {
                             <li><Link to='section1' smooth='true'>Products</Link></li>
                             <li><Link to='section2' smooth='true'>Features</Link></li>
                             <li><Link to='section3' smooth='true'>About</Link></li>
-                            <li><Link to='footer' smooth='true'>Contacts</Link></li>
                         </div>
                     </div>
                     <div className="resources">

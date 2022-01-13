@@ -52,6 +52,26 @@ export default class SectionOne extends Component {
                             today, <br/> Exercitation veniam consequat sunt nostrud amet.</p>
                     </div>
                 </div>
+                <div className="calc">
+                    <div className="calc_inner">
+                        <form action="" className="calc_form">
+                            <div className="calc_wrapper">
+                                <input id='hash' type="phone" maxLength={12} className='form_input large-medium-body' placeholder='Enter your hash rate'/>
+                                <select name="" className='form_dropdown large-medium-body' id="test">
+                                    <option value="1" selected='selected'>MH/s</option>
+                                    <option value="2">KH/s</option>
+                                    <option value="3">H/s</option>
+                                </select>
+                                <button className='calc_btn'>Calculate</button>
+                            </div>
+                            <div className="calc_result">
+                                <div className="calc_result_revenue">ESTIMATED 24 HOUR REVENUE:</div>
+                                <h3 className="calc_result_title">0.000 ETH (0$) </h3>
+                                <div className="calc_result_description">Revenue will change based on mining difficulty and Ethereum price.</div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
             </div>
         </div>
         )
