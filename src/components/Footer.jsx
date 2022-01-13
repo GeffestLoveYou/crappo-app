@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link, animateScroll as scroll } from "react-scroll";
 
 export default class Footer extends Component {
     render() {
@@ -13,21 +14,11 @@ export default class Footer extends Component {
                     <div className="quick-links">
                         <p className="large-medium-body white">Quick Link</p>
                         <div className="link_block small-regular-body grey6">
-                            <a href="#">
-                                <p>Home</p>
-                            </a>
-                            <a href="#">
-                                <p>Products</p>
-                            </a>
-                            <a href="#">
-                                <p>About</p>
-                            </a>
-                            <a href="#">
-                                <p>Features</p>
-                            </a>
-                            <a href="#">
-                                <p>Contact</p>
-                            </a>
+                            <li><Link to='header' smooth='true'>Home</Link></li>
+                            <li><Link to='section1' smooth='true'>Products</Link></li>
+                            <li><Link to='section2' smooth='true'>Features</Link></li>
+                            <li><Link to='section3' smooth='true'>About</Link></li>
+                            <li><Link to='footer' smooth='true'>Contacts</Link></li>
                         </div>
                     </div>
                     <div className="resources">
