@@ -17,11 +17,9 @@
                 display: flex;
                 align-items: center;
                 nav{
-                    ul{
-                        display: flex;
-                        li{
-                            padding-left: 32px;
-                        }
+                    a{
+                        padding-left: 32px;
+                        cursor: pointer;
                     }
                 }
                 .navigation_login-group{
@@ -46,6 +44,32 @@
         padding-top: 51px;
             .content_block{
                 padding-top: 80px;
+                .usp_week {
+                    font-family: 'Rubik', sans-serif;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    width: 370px;
+                    height: 43px;
+                    background-color: rgba(255,255,255,.1);
+                    border-radius: 32px;
+                    .usp_save {
+                        width: 120px;
+                        height: 31px;
+                        background-color: #fff;
+                        font-weight: 500;
+                        color: #0d0d2b;
+                        text-align: center;
+                        border-radius: 32px;
+                        padding-top: 4px;
+                        line-height: 1.5;
+                        font-weight: 500;
+                      }
+                      .usp_friday {
+                        font-weight: 400;
+                        color: #fff;
+                      }
+                }
                 .btn{
                     width: 202px;
                     height: 64px;

@@ -36,7 +36,13 @@ export default class SectionOne extends Component {
                             <p className="small-regular-body grey5">Experience the next generation cryptocurrency <br/> platform.
                                 No financial borders, extra fees, and fake <br/> reviews.</p>
                         </div>
-                        <div className="btn standart-medium-body white"><a href="#">Learn more</a></div>
+                        <a href="#" className="btn_link">
+                            <div className="second_btn">
+                                <div className="standart-medium-body white">
+                                    Learn More
+                                </div>
+                            </div>
+                        </a>
                     </div>
                 </div>
                 <div className="section1_add">

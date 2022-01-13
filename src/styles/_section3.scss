@@ -9,7 +9,7 @@
             .block1{
                 padding-bottom: 100px;
                 display: flex;
-                justify-content: center;
+                justify-content: space-between;
                 align-items: center;
                 h3{
                     padding-bottom: 24px;
@@ -23,9 +23,9 @@
             }
             .block2{
                 display: flex;
-                justify-content: left;
-                align-items: center;
                 padding-bottom: 100px;
+                justify-content: space-between;
+                align-items: center;
                 h3{
                     padding-bottom: 24px;
                 }
@@ -39,9 +39,9 @@
             }
             .block3{
                 display: flex;
-                justify-content: center;
-                align-items: center;
                 padding-bottom: 100px;
+                justify-content: space-between;
+                align-items: center;
                 h3{
                     padding-bottom: 24px;
                 }

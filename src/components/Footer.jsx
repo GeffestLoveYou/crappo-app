@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export default class Footer extends Component {
     render() {
         return (
-        <div class="footer">
+        <div className="footer">
             <div className="container">
                 <div className="footer_content">
                     <div className="logo">

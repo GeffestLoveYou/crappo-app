@@ -1,16 +1,44 @@
 /*Components*/
 
 .container{
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
-.btn{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 16px 32px;
-
-    background: $accient;
+.btn {
+    width: 202px;
+    height: 64px;
     border-radius: 32px;
+    background-color: #3671e9;
+    text-decoration: none;
+    color: #fff;
+    transition: 1s all;
+    .btn_wrapper{
+        margin: 0 auto;
+        width: 155px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        transform: translateY(50%);
+        .btn_description{
+            font-family: 'Rubik', sans-serif;
+            line-height: 1.5;
+        }
+    }
+}
+
+.second_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 145px;
+    height: 59px;
+    border-radius: 32px;
+    background-color: #3671e9;
+    text-decoration: none;
+    color: #fff;
+    transition: 1s all;
+    .second_btn_descripton{
+        font-family: 'Rubik', sans-serif;
+    }
 }
