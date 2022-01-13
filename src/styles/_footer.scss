@@ -1,0 +1,59 @@
+.footer{
+    background-color: $primary;
+    .container{
+        .footer_content{
+            display: flex;
+            justify-content: space-between;
+            padding-top: 88px;
+            align-items: flex-start;
+            .logo{
+                display: flex;
+                align-items: center;
+                p{
+                    padding-left: 16px;
+                }
+            }
+            .quick-links{
+                p{
+                    padding-bottom: 24px;
+                }
+                .link_block{
+                    p{
+                        padding-bottom: 10px;
+                    }
+                }
+            }
+            .resources{
+                p{
+                    padding-bottom: 24px;
+                }
+                .link_block{
+                    p{
+                        padding-bottom: 10px;
+                    }
+                }
+            }
+            .payment-systems{
+                p{
+                    padding-bottom: 40px;
+                }
+                .icon_block{
+                    img{
+                        padding-right: 24px;
+                    }
+                }
+            }
+        }
+        .footer_content-add{
+            display: flex;
+            justify-content: space-between;
+            padding-top: 120px;
+            padding-bottom: 80px;
+            .icon_block{
+                a{
+                    padding-right: 32px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,55 @@
+.section1{
+    background-color: $primary;
+    padding-top: 240px;
+    .container{
+        .numbers-group{
+            display: flex;
+            justify-content: space-between;
+
+            .number{
+                display: flex;
+                align-items: center;
+                h2{
+                    text-align: left;
+                }
+                .text-group{
+                    padding-left: 24px;
+                }
+            }
+        }
+        .section1_content{
+            padding-top: 100px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .content_block{
+                .text_block{
+                    h2{
+                        text-align: left;
+                        padding-bottom: 24px;
+
+                    }
+                    p{
+                        padding-bottom: 32px;
+                    }
+
+                }
+             }
+             .btn{
+                width: 146px;
+                height: 59px;
+                
+                justify-content: center;
+                border-radius: 64px;
+             }
+    }
+}
+}
+.section1_add{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 220px;
+    h2{
+        padding-bottom: 24px;
+    }
+}

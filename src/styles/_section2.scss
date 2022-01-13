@@ -1,0 +1,40 @@
+.section2{
+    background: linear-gradient(180deg, #F8F9FB 0%, #FAFBFF 100%);
+    .section2_content{
+        padding-top: 316px;
+        padding-bottom: 100px;
+        .card-block{
+            display: flex;
+            justify-content: space-between;
+            padding-top: 64px;
+            .card{
+                background: $white;
+                border-radius: 16px;
+                p{
+                    padding-bottom: 25px;
+                }
+                .card_content{
+                    text-align: center;
+                    justify-content: center;
+                    padding-left: 24px;
+                    padding-right: 24px;
+                    padding-top: 48px;
+                    padding-bottom: 48px;
+                    .h-block{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        padding-top: 48px;
+                        h3{
+                            padding-right: 8px;
+                            padding-bottom: 16px;
+                        }
+                    }
+                    .arrow-right{
+                        padding-top: 25px;
+                    }
+                }
+            }
+        }
+    }
+}

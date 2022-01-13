@@ -1,0 +1,30 @@
+.section4{
+    background: linear-gradient(180deg, #2B076E 0%, #0D0D2B 100%);
+    .container{
+        padding-bottom: 88px;
+        .section4_content{
+            background: #3671E9;
+            border-radius: 16px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .text_block{
+                padding-top: 48px;
+                padding-left: 48px;
+                padding-bottom: 48px;
+                h3{
+                    padding-bottom: 16px;
+                }
+            }
+            .form-and-button_block{
+                display: flex;
+                .search-group{
+                    input{
+                        border: none;
+                        background-color: $white;
+                    }
+                }
+            }
+        }
+    }
+}
